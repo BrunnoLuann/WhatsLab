@@ -1,3 +1,6 @@
+## WhatsLab
+
+![Capturar](https://user-images.githubusercontent.com/86798260/138569406-482cdfe7-e36e-4ce8-b662-799f36cd39a5.PNG)
 
 ## 🖋 Descrição do projeto
 Introduzindo o conceito de Pair Programming!
