@@ -1,51 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import MessagesList from "./MessagesList";
+import { UserInput, MessageInput, SendMessage, Container } from "./styled"
 
-const Container = styled.div`
-  width: 45vw;
-  height: 2em;
-  display: flex;
-
-
-
-`;
-
-const UserInput = styled.input`
-  background-color: white;
-  border-radius: 5px;
-  border: 1px solid lightgray;
-  margin: 3px 8px;
-  width: 80px;
-
-
-
-`;
-
-const MessageInput = styled.input`
-  background-color: white;
-  border-radius: 5px;
-  border: 1px solid lightgray;
-  margin: 3px 15px 3px 8px;
-  flex-grow: 1;
-
-
-
-
-`;
-
-const SendMessage = styled.button`
-  background-color: #25D366;
-  border-radius: 5px;
-  border: none;
-  margin: 3px 190px 3px 4px;
-  color: white;
-  font-weight: bold;
-  font-size: 16px;
-
-
-
-`;
 
 //Area de Envio de Mensagem
 class CreateMessage extends React.Component {
